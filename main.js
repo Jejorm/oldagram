@@ -46,7 +46,7 @@ for (const post of posts) {
                 <img src="/images/icon-dm.png" alt="share icon">
             </div>
             <p id="${id}-likes">${likes} likes</p>
-            <p><span>${username} ${comment}</p>
+            <p><span>${username}</span> ${comment}</p>
         </section>
     `
 }
